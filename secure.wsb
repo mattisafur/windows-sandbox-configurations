@@ -1,0 +1,18 @@
+<Configuration>
+    <!-- Disables all unnecessary features -->
+    <vGPU>Disable</vGPU>
+    <AudioInput>Disable</AudioInput>
+    <VideoInput>Disable</VideoInput>
+    <PrinterRedirection>Disable</PrinterRedirection>
+    <ClipboardRedirection>Disable</ClipboardRedirection>
+    <Networking>Disable</Networking>
+
+    <!-- Enables protected client and maps read-only direcotry -->
+    <ProtectedClient>Enable</ProtectedClient>
+    <MappedFolders>
+        <MappedFolder>
+            <HostFolder>./Mapped Folder</HostFolder>
+            <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+</Configuration>
