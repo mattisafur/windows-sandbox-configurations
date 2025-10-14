@@ -1,1 +1,0 @@
-This directory is mapped into the sandbox user's desktop with read-only permissions.
